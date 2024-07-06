@@ -1,0 +1,130 @@
+body {
+    background-color: #949494;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-size: 70px;
+}
+
+.nav-bar {
+    list-style-type: none;
+    margin: 15px 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: 	#141414;
+}
+
+.nav-bar-text {
+    color: #FFFFFF;
+    display: block;
+    text-align: center;
+    padding: 15px 150px;
+    text-decoration: none;
+}
+
+.nav-bar-item {
+    float: left;
+}
+
+/*Page one*/
+
+.page-one-header {
+    margin: auto;
+    text-align: center;
+}
+
+.page-one--first-paragraph {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin: auto;
+    height: 250px;
+    gap: 2%;
+}
+
+.page-one--second-paragraph {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin: auto;
+    height: 250px;
+    gap: 2%;
+}
+
+.page-one--third-paragraph {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin: auto;
+    height: 250px;
+    gap: 2%;
+}
+
+/*Page two*/
+
+.page-two-legend {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+
+.page-two--full-name-email {
+    text-align: center;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.page-two--checkbox {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.page-two--textbox {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.page-two--input-boxes {
+    width: 200px;
+}
+
+.page-two--submit-button {
+    margin: auto;
+    text-align: center;
+}
+
+.page-two--button-style {
+    background-color: black;
+    color: #FFFFFF;
+}
+
+/*Page three*/
+.page-three--content {
+    margin: auto;
+    text-align: center;
+}
+
+.page-three--links {
+    display: inline;
+}
+
+/*Page four*/
+
+.page-four--header {
+    text-align: center;
+}
+
+.page-four--content {
+    text-align: center;
+    margin: auto;
+    display: grid;
+    grid-template: auto auto / 30% 30% 30%;
+    row-gap: 50px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+    <head>
+        <title>Newsletter</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+
+        <ul class="nav-bar">
+            <li class="nav-bar-item"><a href="index.html" class="nav-bar-text">Home</a></li>
+            <li class="nav-bar-item"><a href="pageTwo.html" class="nav-bar-text">Newsletter</a></li>
+            <li class="nav-bar-item"><a href="pageThree.html" class="nav-bar-text">Official Sites</a></li>
+            <li class="nav-bar-item"><a href="pageFour.html" class="nav-bar-text">Notable Records</a></li>
+        </ul>
+
+
+        <form action="/form-handling-url" method="post">
+            <fiedlset>
+                <legend class="page-two-legend">Newsletter Sign up:</legend>
+
+                <div class="page-two--full-name-email">
+                    <label for="fname">Full Name:<br></label>
+                    <input type="text" id="fname" name="fname" class="page-two--input-boxes">
+                </div>
+                <div class="page-two--full-name-email">
+                    <label for="email">Email:<br></label>
+                    <input type="text" id="email" name="email" class="page-two--input-boxes">
+                </div>
+                <div class="page-two--checkbox">
+                    <input type="checkbox" id="signup" name="signup" value="Signup">
+                    <label for="signup">agree to recieve daily emails</label>
+                </div>
+                <div class="page-two--textbox">
+                    <label for="comments">Favorite Teams<br></label>
+                    <textarea id="comments" name="comments" class="page-two--input-boxes"></textarea>
+                </div>
+                <div class="page-two--submit-button">
+                    <button type="submit" class="page-two--button-style">Sign Up</button>
+                </div>
+            </fiedlset>
+        </form>
+
+
+
+    </body>
+</html>
